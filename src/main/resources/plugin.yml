@@ -1,0 +1,11 @@
+name: TestPlugin
+version: '${project.version}'
+main: com.francobm.testplugin.TestPlugin
+api-version: 1.16
+authors: [ FrancoBM ]
+description: test plugin
+commands:
+  test:
+    description: test command
+    usage: /<command>
+    aliases: [ tt ]
